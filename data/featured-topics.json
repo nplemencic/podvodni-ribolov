@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sigurno-ronjenje",
+    "icon": "🌊",
+    "title": "Sigurno ronjenje",
+    "text": "Pravilna oprema i stručni savjeti za siguran boravak u vodi.",
+    "details": "Sigurno ronjenje počinje dobrom pripremom, provjerom opreme i praćenjem uvjeta u moru."
+  },
+  {
+    "id": "prakticna-oprema",
+    "icon": "🎣",
+    "title": "Praktična oprema",
+    "text": "Odijela, maske i puške odabrane za lakše i kvalitetnije iskustvo.",
+    "details": "Odabir kvalitetne opreme olakšava boravak u vodi i povećava udobnost tijekom ribolova."
+  },
+  {
+    "id": "tecajevi-pocetnici",
+    "icon": "📘",
+    "title": "Tečajevi za početnike",
+    "text": "Upoznaj osnove ronjenja uz stručno vodstvo i sigurnosne upute.",
+    "details": "Tečajevi pomažu početnicima da nauče osnove tehnike, sigurnosti i pravilnog ponašanja u vodi."
+  }
+]

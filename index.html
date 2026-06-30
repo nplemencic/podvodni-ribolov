@@ -10,6 +10,7 @@
     <meta property="og:image" content="img/pocetna.jpg">
     <meta property="og:site_name" content="Podvodni ribolov">
     <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="scripts/main.js"></script>
 </head>
 <body class="home-page">
 
@@ -55,21 +56,8 @@
         <a href="pages/oprema.html" class="hero-button">Pogledaj opremu</a>
     </div>
     <div class="hero-features" aria-label="Prednosti podvodnog ribolova">
-        <div class="feature-card">
-            <div class="feature-icon">🌊</div>
-            <h3>Sigurno ronjenje</h3>
-            <p>Pravilna oprema i stručni savjeti za siguran boravak u vodi.</p>
-        </div>
-        <div class="feature-card">
-            <div class="feature-icon">🎣</div>
-            <h3>Praktična oprema</h3>
-            <p>Odijela, maske i puške odabrane za lakše i kvalitetnije iskustvo.</p>
-        </div>
-        <div class="feature-card">
-            <div class="feature-icon">📘</div>
-            <h3>Tečajevi za početnike</h3>
-            <p>Upoznaj osnove ronjenja uz stručno vodstvo i sigurnosne upute.</p>
-        </div>
+        <div id="featured-topics"></div>
+        <aside class="topic-details" id="featured-topic-details" aria-live="polite"></aside>
     </div>
 </section>
 

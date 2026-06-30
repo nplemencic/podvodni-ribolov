@@ -6,6 +6,7 @@ Jednostavna edukativna web stranica posvećena podvodnom ribolovu. Projekt prika
 
 - [Opis projekta](#opis-projekta)
 - [Tehnologije](#tehnologije)
+- [JavaScript funkcionalnosti](#javascript-funkcionalnosti)
 - [Struktura projekta](#struktura-projekta)
 - [Pokretanje](#pokretanje)
 - [Napomene](#napomene)
@@ -28,7 +29,26 @@ Stranica je napravljena kao školski projekt i sastoji se od više međusobno po
 
 - HTML5
 - CSS3
+- JavaScript ES moduli
 - Responsive dizajn
+
+## JavaScript funkcionalnosti
+
+- Dinamički prikaz kartica na početnoj stranici iz podataka u JavaScriptu
+- Učitavanje podataka preko `fetch` iz lokalnog JSON-a
+- Pretraga s prikazom gdje je pojam pronađen na karticama
+- Odabir kartice i prikaz dodatnih detalja
+- Spremanje zadnje pretrage i odabrane kartice u `localStorage`
+- Obrada kontakt forme bez reloadanja stranice
+- Prikaz UI stanja: `loading`, `error` i `empty`
+
+### Organizacija koda
+
+- `scripts/main.js` - ulazna točka koja spaja sve module
+- `scripts/data/featuredTopics.js` - učitavanje i fallback podaci
+- `scripts/state/appState.js` - stanje aplikacije i spremanje u `localStorage`
+- `scripts/ui/homepage.js` - render početne stranice i pretrage
+- `scripts/ui/contactForm.js` - logika kontakt forme
 
 ## Struktura projekta
 
@@ -44,6 +64,17 @@ podvodni-ribolov/
 │   └── tecajevi.html   # Tečajevi i sigurnost
 ├── styles/
 │   └── style.css       # Glavni stilovi
+├── scripts/
+│   ├── main.js         # Glavna JavaScript datoteka
+│   ├── data/
+│   │   └── featuredTopics.js
+│   ├── state/
+│   │   └── appState.js
+│   └── ui/
+│       ├── contactForm.js
+│       └── homepage.js
+├── data/
+│   └── featured-topics.json
 ├── img/                # Slike korištene na stranicama
 └── README.md           # Ova datoteka
 ```
@@ -60,6 +91,7 @@ Projekt je statički, pa ga je dovoljno otvoriti u pregledniku.
 
 - Stilovi se nalaze u datoteci `styles/style.css`.
 - Sve slike su spremljene u mapi `img/`.
+- Podaci za početnu stranicu učitavaju se iz datoteke `data/featured-topics.json`.
 - Kontakt forma koristi HTML validaciju preko atributa kao što su `required`, `type="email"` i `minlength`.
 - Stranica je prilagođena i za mobilne uređaje.
 
