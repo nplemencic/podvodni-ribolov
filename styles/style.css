@@ -121,6 +121,78 @@ h1 {
     margin: 20px;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 20px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin: 0 0 15px 0;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #004d66;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.hero-button:hover {
+    background-color: #006f8c;
+}
+
+.hero-features {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 16px;
+    max-width: 360px;
+}
+
+.feature-card {
+    background: rgba(0, 77, 102, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.feature-icon {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.feature-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+}
+
+.feature-card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
 h2,
 h3,
 h4 {
@@ -147,6 +219,17 @@ p {
     width: 100%;
     max-width: 320px;
     height: auto;
+    margin: 10px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.slika-puske {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: 210px;
+    object-fit: cover;
     margin: 10px 20px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
