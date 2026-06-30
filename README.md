@@ -67,6 +67,10 @@ Projekt je statički, pa ga je dovoljno otvoriti u pregledniku.
 
 Za pitanja ili povratne informacije, kontaktirajte nas putem kontakt forme na web stranici.
 
+## Autor
+
+Nikola Plemenčić, UNIZD SIT 2026.
+
 ---
 
 *Stranica je izrađena kao dio edukativnog projekta za kolegij Uvod u Web tehnologije.*
