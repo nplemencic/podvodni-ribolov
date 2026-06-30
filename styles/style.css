@@ -518,6 +518,10 @@ footer a:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
     nav {
         flex-direction: column;
         align-items: stretch;
@@ -580,7 +584,7 @@ footer a:hover {
     }
 
     .hero-text p {
-        font-size: 16px;
+        font-size: 1rem;
         margin-bottom: var(--space-8);
     }
 
@@ -613,13 +617,13 @@ footer a:hover {
     .feature-card h3,
     .ui-state h3,
     .topic-details h3 {
-        font-size: 18px;
+        font-size: 1.05rem;
     }
 
     .feature-card p,
     .ui-state p,
     .topic-details p {
-        font-size: 14px;
+        font-size: 0.95rem;
     }
 
     .search-summary,
