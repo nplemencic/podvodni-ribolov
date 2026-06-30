@@ -1,44 +1,72 @@
 # Podvodni ribolov
 
-Edukativna web stranica posvećena podvodnom ribolovu, koja pruža detaljne informacije o opremi, odijelima, pušakama, tečajevima i sigurnosti.
+Jednostavna edukativna web stranica posvećena podvodnom ribolovu. Projekt prikazuje osnovne informacije o opremi, odijelima, podvodnim puškama, tečajevima i sigurnosti.
 
-## 📋 Sadržaj
+## Sadržaj
 
-- **Početna** - Uvod u podvodni ribolov
-- **Oprema** - Pregled obavezne opreme (maska, disalica, peraje, odijelo, pojas, puška, nož, bova)
-- **Odijela** - Vrste i karakteristike odijela za podvodni ribolov
-- **Podvodne puške** - Opis različitih tipova pušaka (gumene, zračne, roller, invert roller)
-- **Tečajevi** - Informacije o tečajevima ronjenja i sigurnosnim pravilima
-- **Kontakt** - Obrazac za kontaktiranje
+- [Opis projekta](#opis-projekta)
+- [Tehnologije](#tehnologije)
+- [Struktura projekta](#struktura-projekta)
+- [Pokretanje](#pokretanje)
+- [Napomene](#napomene)
+- [Kontakt](#kontakt)
 
-## 🛠️ Tehnologija
+## Opis projekta
+
+Stranica je napravljena kao školski projekt i sastoji se od više međusobno povezanih HTML stranica. Svaka stranica obrađuje jednu temu vezanu uz podvodni ribolov, a zajednički stilovi se nalaze u jednoj CSS datoteci.
+
+### Što stranica sadrži
+
+- Početnu stranicu s uvodom u temu
+- Stranicu s pregledom opreme
+- Stranicu o odijelima
+- Stranicu o vrstama podvodnih pušaka
+- Stranicu o tečajevima i sigurnosti
+- Stranicu s kontakt formom
+
+## Tehnologije
 
 - HTML5
 - CSS3
 - Responsive dizajn
 
-## 📁 Struktura datoteka
+## Struktura projekta
 
 ```
 podvodni-ribolov/
 ├── index.html          # Početna stranica
-├── oprema.html         # Oprema za ribolov
-├── odijela.html        # Vrste odijela
-├── puske.html          # Vrste pušaka
-├── tecajevi.html       # Tečajevi i sigurnost
-├── kontakt.html        # Kontakt forma
-├── style.css           # Stilovi
+├── pages/
+│   ├── kontakt.html    # Kontakt forma
+│   ├── odijela.html    # Vrste odijela
+│   ├── onama.html      # O nama
+│   ├── oprema.html     # Oprema za podvodni ribolov
+│   ├── puske.html      # Vrste podvodnih pušaka
+│   └── tecajevi.html   # Tečajevi i sigurnost
+├── styles/
+│   └── style.css       # Glavni stilovi
+├── img/                # Slike korištene na stranicama
 └── README.md           # Ova datoteka
 ```
 
-## 🎨 Dizajn
+## Pokretanje
 
-Stranica koristi plavu boju kao primarnu boju (#004d66) koja se povezuje s temom mora i ronjenja. Responsive dizajn osigurava dobru vidljivost na različitim uređajima.
+Projekt je statički, pa ga je dovoljno otvoriti u pregledniku.
 
-## 📧 Kontakt
+1. Otvorite mapu projekta u VS Code ili File Exploreru.
+2. Pokrenite `index.html` u pregledniku ili otvorite datoteku direktno.
+3. Navigacija vodi prema ostalim stranicama unutar mape `pages/`.
+
+## Napomene
+
+- Stilovi se nalaze u datoteci `styles/style.css`.
+- Sve slike su spremljene u mapi `img/`.
+- Kontakt forma koristi HTML validaciju preko atributa kao što su `required`, `type="email"` i `minlength`.
+- Stranica je prilagođena i za mobilne uređaje.
+
+## Kontakt
 
 Za pitanja ili povratne informacije, kontaktirajte nas putem kontakt forme na web stranici.
 
 ---
 
-*Stranica je kreirana kao dio edukativnog projekta za kolegij "Uvod u Web tehnologije"*
+*Stranica je izrađena kao dio edukativnog projekta za kolegij Uvod u Web tehnologije.*
